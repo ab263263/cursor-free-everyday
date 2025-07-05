@@ -1,0 +1,24 @@
+# 青龙面板 - 卡农论坛轻量级监控依赖包
+# 专为资源受限环境设计，内存占用 < 50MB
+
+# HTTP 请求库 (必需)
+requests>=2.28.0
+
+# HTML 解析库 (推荐，如果未安装会自动使用正则表达式)
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# 以下为 Python 内置模块，无需安装
+# json - JSON 处理
+# smtplib - 邮件发送
+# email - 邮件格式
+# re - 正则表达式
+# datetime - 时间处理
+# time - 时间控制
+# os - 系统操作
+# sys - 系统信息
+# urllib.parse - URL 处理
+# typing - 类型提示
+
+# 可选依赖 (用于性能监控)
+# psutil>=5.9.0  # 内存使用监控，可选安装
